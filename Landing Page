@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vehicle Rental</title>
+    <link rel="stylesheet" href="style.css">
+    ,
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">-->
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vehicle{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(0,0,0,2), rgba(0,0,0,0.5)),url(oct3.jpg);
+    background-size:cover;
+}
+header{
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    height: 4rem;
+}
+header nav:hover{
+    background-color: #15111150;
+}
+header nav:hover ul li a{
+color: rgb(219,219,219);
+}
+.logo{
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.orange{
+    color: #42c3ff;
+}
+/* nav ul{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    margin-right: 60px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+} */
+
+header nav ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+}
+header nav ul li{
+   margin-left: 4rem;
+   margin: 0 25px;
+}
+header nav ul li a{
+   color: white;
+   text-decoration: none;
+   
+
+}
+header nav ul li a:hover{
+   color: #5e42ff;
+   font-size: 1.02rem;
+ }
+#view{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content{
+    color: #f0f0f0;
+    width: 65%;
+
+}
+.content h1{
+    margin: 2rem 0;
+    font-size: 2.6rem;
+}
+
+.content p{
+    margin: 1.5rem 0;
+   
+}
+.content button{
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+   font-size: 1rem;
+    background-color: #ff6b42;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.content button:hover{
+    background-color: #19a02094;
+}
+    </style>
+    <div class="vehicle">
+    <header>
+        <nav>
+<div class="logo">A<span class="orange">to</span><div>Z</div><span class="orange">Recipes</span>
+    
+</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Special Dishes</a></li>
+                <li><a href="#">About</a></li>
+                
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="view">
+        <div class="content">
+            <h1>ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
+           <h2>Freshness In Every Bite.</h2>
+             <p>You've come to the right place. <br>We are here to fulfill your Food Cravings with your family,friends and colleages. 
+                We provide various Varieties of Cuisines. Have a happy and Tasty Dine Time  with our A to Z Recipes.
+            </p>
+            <a href="#">Our Services</a>
+            <!-- <button class="abc">Our services</button> -->
+            <button>Make a booking</button>
+           
+        </div>
+    </div>
+    </section>
+</body>
+</html>
